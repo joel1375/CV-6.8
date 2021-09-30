@@ -1,0 +1,342 @@
+ul {
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+li, .navigationalBarTop, ul  {
+  background-color: #889EAF;
+}
+
+.navigationalBarTop {
+  background-color:#889EAF;
+}
+
+.portoflioIcon {
+  color: grey;
+}
+.portoflioIcon:hover {
+  color: white;
+}
+.contactContainer {
+  background-image: linear-gradient(360deg,black  , #D4B499 , white);
+  padding: 10px 5%;
+  font-family: "Roboto";
+
+}
+
+.contactme  .fab {
+  margin: 40px 15px;
+}
+
+.sociallinks {
+  color: white;
+}
+
+
+.fa-code {
+  margin-top: 20px;
+}
+
+.facebookLink , .linkedinLink , .instagramLink {
+  color: white;
+}
+
+.facebookLink:hover {
+  color: #4267B2;
+}
+
+.linkedinLink:hover {
+  color: #0077b5;
+}
+
+.instagramLink:hover {
+  color: #8134AF;
+
+}
+
+
+.rowContainer {
+  background-color: white;
+  font-family: "Roboto";
+
+}
+
+.rowContainer h4 {
+  padding: 0 15%;
+}
+
+.aboutbrief {
+  background-color: white;
+  margin: 0;
+  padding: 50px 15% 100px;
+  font-family: "Roboto";
+}
+
+.navigationalBarTop {
+  padding: 0 2% 0;
+}
+
+.skills {
+  width: 70%;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.robotofont {
+  font-family: "Roboto";
+}
+
+.robotofont h3 {
+  line-height: 1.75;
+  padding: 0 15%;
+}
+
+
+
+li {
+  float: right;
+  padding: 16px;
+  color: white;
+}
+
+li:hover {
+  background-color: #704f4c;
+  color: #fff;
+}
+
+body {
+  background-color: black;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.creditsContainer {
+  background-color: black;
+  padding-top: 40px;
+}
+
+
+
+
+
+.creditsContainer p {
+  color: white;
+}
+
+
+
+p {
+  padding: 0 20% 0;
+  color: #fff;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.15rem;
+}
+h4 {
+  font-size:  .9rem;
+}
+
+.col-sm-6 {
+  margin-bottom: 100px;
+}
+
+.mainBody {
+  background-color: grey;
+  margin: auto;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.logoImage {
+  height: 40px;
+  margin: 5px 0 5px 0;
+}
+
+.topContainer {
+  background-image: linear-gradient(180deg, #889EAF , #D4B499 , white);
+  text-align: center;
+  margin: 56px 0 0;
+  padding: 5%;
+}
+.topContainerAbout {
+  background-image: linear-gradient(180deg, #889EAF , #082032 ,#082032 , #082032);
+  text-align: center;
+  margin: 56px 0 0;
+  padding: 5% 0 30px 0;
+}
+
+.topContainerAbout h1 {
+  color: white;
+}
+
+.pictureRow {
+  background-color: #082032;
+  color:white;
+}
+
+.aboutme {
+  padding: 0 15%;
+}
+
+.profilePhotos {
+  padding: 0 0 30px 0;
+}
+
+.logoText {
+width: 25%;
+max-height: 400px;
+max-width: 400px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+p {
+  color: #000000;
+}
+
+.profilePicture {
+  height: 150px;
+  border-radius: 100%;
+
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.textalignleft {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE FIRST SECTION */
+@media (max-width: 745px) {
+  .mobileOnly {
+    display: block;
+  }
+  .topContainerAbout {
+    background-image: linear-gradient(180deg, black , #082032 ,#082032 , #082032);
+    text-align: center;
+    margin: 56px 0 0;
+    padding: 5% 0 50px 0;
+  }
+
+  .creditsContainer p {
+    font-size: 0.7rem;
+  }
+  .textH3 {
+    margin-top: 10px;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .topContainer {
+    padding: 100px 0 250px;
+    background-image: linear-gradient(180deg, black, #889EAF , #D4B499 , white);
+  }
+
+  .logoText {
+    width: 50%;
+  }
+
+  .profilePicture {
+    height: 120px;
+    border-radius: 100%;
+
+  }
+}
+
+@media (min-width: 745px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+}
